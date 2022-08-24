@@ -1,0 +1,41 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:date:subject:to:from:message-id:from:to:cc;
+        bh=hzp1flKgSCFKAuHZRppARoJ/CnQt/QXzyYvJk7YwvLQ=;
+        b=PdU/LNumBC25CP8Llq8ds6ba226cbhFN8WnMbN4WVMsyBs/WkKo5+TQwjTIP87X2DP
+         ppr5Xe2qMdU+j6SRUCvtH7su/w/y1zZoByIWJOMBYyYX9g8L+IDl5eXL5UYJ6NBvyUJO
+         7ATPstUcyhcRdKY3K8iLrgKZIsKgmWX/Gz0DyNC3jAlFgsApbm4XJ4cAdovD6GBPH85O
+         V8jKCnET3fEZELD8cI+TsgiqMhcLm+bLtjk5rfT3uZudDjsPl6Ev9n9pzBhDxchc+a8d
+         7Lex5TwlXLVx6tu9zZEV5BvjifLKlwzqHLiy1DO3IuXB3aGk7NHVq6tVnp/oE/tuwLlF
+         rJ9A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=mime-version:date:subject:to:from:message-id:x-gm-message-state
+         :from:to:cc;
+        bh=hzp1flKgSCFKAuHZRppARoJ/CnQt/QXzyYvJk7YwvLQ=;
+        b=QWvhY17FQf4cUKkIp62tNIUm3LZlWbGlGgjvsA0DM2z6G1UqBccx0qytvsCWksfg9l
+         k156eJKCGeyKipHc8pIuofUaW2cE+dVtR9Sh0w8W7KveMOEBVkg1z6bRUXh2NZVhN96s
+         /JvFPJQQl4VmG9rkOSyQPG5jHweLWopPtFkSxmI2UesppswAmuuoJSMH14a0sYJFUBkb
+         o1hrn9nDNJzvT5oJ53dFky47q8laCpNG1wG2MDZ3A+gHVcGmQpm/3Ln2axHye5SZRxdH
+         jt7OgRu+cRz75YUKnrHFzDMHSy3lQZtrymxj//eI8iCijAkLISDJHwDzEF2IJCfGxpHl
+         JkBA==
+X-Gm-Message-State: ACgBeo3l3JZYWnUpQJYs1jJaWydXZpsIYLzuzv+3xYhhzV/4pgGiguSV
+	fNKTisABvmSLqjg0xpmD1FIdO7eJnkg=
+X-Google-Smtp-Source: AA6agR5gdFFNMDmsJXh8Faz65/SQLos6vP8NMAfJdYo+/P1z0rxNJJ2wZkFyxuf/i8XQEvuWgVUd3w==
+X-Received: by 2002:a05:6a00:1709:b0:52e:677b:702b with SMTP id h9-20020a056a00170900b0052e677b702bmr12524996pfc.19.1660490539425;
+        Sun, 14 Aug 2022 08:22:19 -0700 (PDT)
+Return-Path: <dbmh33@gmail.com>
+Received: from microsoft-PC ([2409:4081:704:d620:517b:accd:bc7d:3b9b])
+        by smtp.gmail.com with ESMTPSA id p187-20020a6229c4000000b0052d327f67b9sm5242371pfp.152.2022.08.14.08.22.18
+        for <orra@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 14 Aug 2022 08:22:19 -0700 (PDT)
+Message-ID: <62f9132b.620a0220.61d92.7e6a@mx.google.com>
+From: Rockson <dbmh33@gmail.com>
+To: orra@gmail.com
+Subject: Hey......You are Rejected!
+Date: Sun, 14 Aug 2022 08:22:17 -0700
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+Full Email Description ....And Read Attached Atachment......
