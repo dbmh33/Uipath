@@ -1,0 +1,138 @@
+Document Formats
+and Image Formats
+
+James C. King
+PDF Architect/Senior Principal Scientist
+Advanced Technology Laboratory
+Adobe Systems Incorporated
+
+                                                       1Outline
+
+  Some Fundamentals
+  PDF Documents
+  PDF Pages
+  Synthesized Pages versus Scanned Pages
+  PDF and JPEG2000
+  PDF and ISO Standards
+
+                                                         2PDF:  Multi-page Compound Documents
+
+  A Comprehensive Format for Representing Documents and Forms
+                Page contents                                   Metadata
+                Images                                          Annotations
+                Graphics                                        Links
+                Fonts                                           Digital signatures
+                Colorspaces                                     <and more>
+
+       Not an image format like TIFF or JPEG
+       High fidelity, high precision text layout and graphics features
+       Platform and device independent definition
+       Selective compression to reduce file size (e.g., image formats)
+       Color Management (ICC support)
+
+       PDF 1.0 in 1993 … PDF 1.7 in 2006.      Many enhancements!
+                                                         8Composite Documents
+
+                                                         9PDF Pages
+
+Page Content Objects
+
+                                                       10Text, Graphics and Image
+
+   Typographic Text                                                         Sampled Images
+
+ Typographic Text
+
+                        Vector Graphics
+
+                                                         11Coordinate Transforms
+
+  x-scale,  rotate/skew,  rotate/skew,  y-scale,  x-pos,   y-pos
+
+            2   0.8   0.7  2   10  210 cm
+                                                          3  0.9  0.8  1  180  200 Tm
+                                                    Text
+                                                          2.5  0  0   -1  235   170 cm
+
+                                                         12Software Support
+
+  Key to use of any image format or document format are the tools available
+       Tools for creation
+            support advanced features
+       Tools for presentation
+       Tools for incorporating with other formats
+       Ubiquity of viewing tools
+       OCR and DR capabilities
+
+                                                         24Tools for Scan to PDF
+
+  Tools that separate image text and image pictures (MRC)
+       Adobe Professional Create from Scanner
+       Adobe PDF Scan Library 3.0 (OEM product)
+       CVision Technologies (www.cvisiontech.com) option for JPEG2000
+       Canon desktop printers and multi-functions devices (some)
+       Iris (www.irislink.com) MRC called IHQ
+       LuraTech (www.luratech.colm) MRC using JPEG2000
+       Nuance (www.thedevilincarnate.com)
+       JRAPublish (Jim Rile)
+       Spigraph (www.spigraph.fr)
+       VeryPDF (www.veryPDF.com)
+  Of course the ubiquitous Adobe Reader presents them all
+
+                                                         25PDF and
+ ISO Standards
+
+                                                       26Establishing the ISO PDF Umbrella
+
+                                                       PDF 1.7 (ISO 32000 in 2008
+
+            PDF/A                   PDF/X                     PDF/E                   PDF/UA
+              archive             graphic arts              engineering               accessibility
+
+          ISO 19005-1             ISO 15930-1             AIIM Committee           AIIM Committee
+            (PDF 1.4)           (PDF 1.4 & 1.6)                 --> ISO                   --> ISO
+
+                                                         27PDF/A
+
+A PDF subset for archiving
+ISO 19005-1
+
+                                                       28Long-term Preservation Needs for Electronic Documents
+
+  Characteristics identified as objectives for PDF/A were
+       Device Independent - Can be reliably and consistently rendered without regard
+        to the hardware or software platform
+       Self-contained - Contains all resources necessary for rendering
+       Self-documenting - Contains its own description
+       Unfettered - Absence of technical file protection mechanisms
+       Available - Authoritative specification publicly available
+       Adoption - Widespread use may be the best deterrent against preservation risk
+
+                                                         29PDF/A -- A PDF Subset of PDF 1.4
+ (Standard: ISO 19005-1)
+
+  Some useful PDF features work against, and are incompatible with,
+   preserving information over the long-term
+  PDF/A
+  PDF Subset: restricted from using some PDF features, for example
+       Anything that would alter the visual appearance over time (forms)
+       No external references or embedded files
+       Encryption
+  PDF Subset: required to use some PDF features, for example
+       Accessibility features for recoverable text (tagged PDF)
+       Embed all fonts
+       Specific metadata requirements
+       Device independent color
+
+                                                         30Uses for PDF/A
+
+  Archival storage of electronic documents
+       Documents of record
+       Government records
+       Corporate records
+  Distributing read only material
+  Documents with assured accessibility (read to the blind)
+
+                                                         31bc
+
+        32

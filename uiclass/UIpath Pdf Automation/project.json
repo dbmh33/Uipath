@@ -1,0 +1,65 @@
+{
+  "name": "Copy Sheet",
+  "description": "Blank Process",
+  "main": "Copy Sheet.xaml",
+  "dependencies": {
+    "ExcelNumberFormat": "[1.0.10]",
+    "UiPath.AdobePdfServices.IntegrationService.Activities": "[4.0.6]",
+    "UiPath.DocumentUnderstanding.OCR.LocalServer": "[1.2.0]",
+    "UiPath.Excel.Activities": "2.12.3",
+    "UiPath.IntelligentOCR.Activities": "[6.0.1]",
+    "UiPath.OCR.Activities": "[3.6.2]",
+    "UiPath.OCR.Contracts": "[2.11.0]",
+    "UiPath.PDF.Activities": "[3.6.0]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]",
+    "Xceed.Pdf": "[2.3.22263.20500]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Copy Sheet.xaml",
+      "uniqueId": "916b2eeb-b261-4730-8861-2f76d3d48596",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
