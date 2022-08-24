@@ -1,28 +1,18 @@
 {
-  "name": "Copy Sheet",
-  "description": "Blank Process",
-  "main": "Copy Sheet.xaml",
+  "name": "calculation robot",
+  "description": "first robot as work as calculator",
+  "main": "Main.xaml",
   "dependencies": {
-    "Google.Apis.Gmail.v1": "[1.55.0.2510]",
-    "MailKit": "[3.1.1]",
-    "MimeKit": "[3.1.1]",
-    "Password_Generator.Activities": "[7.0.0]",
-    "PasswordProtection.Activities": "[1.0.1]",
-    "UiPath.Database.Activities": "[1.6.1]",
-    "UiPath.Excel.Activities": "2.6.1",
-    "UiPath.GoogleCloud.Activities": "[2.1.1]",
-    "UiPath.GSuite.Activities": "[1.16.2]",
+    "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
-    "UiPath.Mailchimp.IntegrationService.Activities": "[4.0.0]",
-    "UiPath.System.Activities": "[19.5.0]",
-    "UiPath.UIAutomation.Activities": "[22.4.7]",
-    "UiPathTeam.GenerateRandomPassword.Activities": "[1.0.4]"
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.0.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -37,7 +27,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": false
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -50,9 +40,17 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "b9a0bdbd-3a92-44fb-9cd1-2af2ec100184",
+      "input": [],
+      "output": []
+    }
+  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
